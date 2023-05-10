@@ -21,7 +21,7 @@ function validate1(){
 
 
 let eNode=document.getElementById('email1');
-let errorNode4=document.getElementById('error2');
+let errorNode2=document.getElementById('error2');
 function validate2(){
     errorNode2.textContent="";
     let email=eNode.value;
