@@ -30,7 +30,7 @@ function validate2(){
         errorNode2.textContent="Email is required";
     }
     else if(!email.includes('@')){
-        errorNode2.textContent="Please enter valid Email Id";
+        errorNode2.textContent="Please ente valid Email Id";
     }
     else if(email.endsWith('@')){
         errorNode2.textContent="Please enter valid Email Id";
