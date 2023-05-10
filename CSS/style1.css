@@ -1,0 +1,208 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#main{
+    background-color: rgb(241, 234, 234);
+    height: 800px;
+}
+#index{
+    background-color:lightgray;
+    
+}
+.navbar{
+    background-color: rgb(0,0,0,0.7);
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+    
+}
+.navbar ul{
+    padding: 20px;
+    display: flex;
+    
+}
+.navbar li{
+    list-style-type: none;
+    padding: 20px;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 7px;
+}
+.navbar a:hover{
+    border-bottom: 2px solid red;
+    color: greenyellow;
+    transition: all .5s;
+}
+#heading{
+    font-size: 40px;
+    color: aquamarine;
+    font-family: cursive;
+    padding-left: 10px;
+    position: relative;
+}
+
+
+/* Home Area */
+
+.details{
+    margin-left: 8%;
+    
+    display: flex;
+   
+}
+.details h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+span{
+    color: greenyellow;
+}
+.details p{
+    color: rgb(78, 80, 79);
+    line-height: 22px;
+    font-size: 18px;
+}
+.details a{
+    background-color: rgb(0,0,0,0.8);
+    padding: 12px 22px;
+    text-decoration: none;
+    font-weight: bold;
+    color: aliceblue;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 8px;
+}
+.details a:hover{
+    color: greenyellow;
+}
+.divi{
+    
+    margin-top: 13%;
+}
+.divi2{
+    margin-left: 27%;
+    margin-top: 70px;
+   
+    position: relative;
+    
+}
+.img2{
+    height: 550px;
+    width: 500px;
+    border: 2px solid rgb(53, 236, 53);
+    border-radius: 50px;
+}
+.img2:hover{
+  
+  transform: scale(1.02);
+  transition: all .5s;
+}
+
+@media (max-width: 640px) {
+    .main {
+      text-align: center;
+    }
+  
+    .index {
+      flex-direction: column;
+    }
+  
+    nav ul {
+      flex-direction: column;
+    }
+  
+    nav li {
+      margin: 0.8em 0;
+    }
+  }
+
+
+  /* footer css */
+
+  #footer{
+    width: auto;
+    height: 150px;
+    background-color: rgb(0,0,0,0.8);
+    margin-top: 20px;
+}
+.footer-logo{
+   
+    color: greenyellow;
+    text-align: center;
+    position: relative;
+    padding: 10px;
+}
+.text-footer{
+    color: rgb(225, 222, 222);
+    text-align: center;
+
+}
+#icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    
+}
+.fa {
+  padding: 20px;
+text-align: center;
+  margin: 6px 6px;
+  font-size: 20px;
+  width: 15px;
+  border-radius: 20px;
+}
+.fa:hover{
+    scale: 1.03;
+}
+.fa-facebook {  
+  background: #3B5998;  
+  color: white; 
+}  
+.fa-twitter {  
+  background: #55ACEE;  
+  color: white;  
+}  
+.fa-pinterest {  
+  background: #cb2027;  
+  color: white;  
+}  
+.fa-instagram {  
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+#buck{  
+  color: white;  
+}  
+
+/* facefont family */
+
+
+/* @font-face {
+    font-family: "Bitstream Vera Serif Bold";
+    src: url("https://mdn.github.io/css-examples/web-fonts/VeraSeBd.ttf");
+}
+
+@font-face {
+  font-family: "Bitstream Vera Serif Bold";
+  src: url("https://mdn.github.io/css-examples/web-fonts/VeraSeBd.ttf");
+}
+
+.text-footer {
+  font-family: "Bitstream Vera Serif Bold", serif;
+} */
+
+
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(../Font/CoffeCake.otf);
+  }
+  
+  .text-footer{
+    font-family: myFirstFont;
+  }
