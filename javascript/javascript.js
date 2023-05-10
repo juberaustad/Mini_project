@@ -27,7 +27,7 @@ function validate2(){
     let email=eNode.value;
     eNode.style.border="2px red solid";
     if(email==""){
-        errorNode2.textContent="Email is requred";
+        errorNode2.textContent="Email is required";
     }
     else if(!email.includes('@')){
         errorNode2.textContent="Please enter valid Email Id";
