@@ -18,7 +18,7 @@ function validate1(){
         return false;
     }
     else{
-        fullnameNode.style.border="2px green solid";
+        fullnameNode.style.border="2px rgb(44, 244, 44) solid";
         return true;
     }
 }
@@ -43,7 +43,7 @@ function validate2(){
         return false;
     }
     else{
-        emailNode.style.border="2px green solid";
+        emailNode.style.border="2px rgb(44, 244, 44) solid";
         return true;
     }
 }
@@ -63,7 +63,7 @@ function validate3(){
         return false;
     }
     else{
-        textNode.style.border="2px green solid";
+        textNode.style.border="2px rgb(44, 244, 44) solid";
         return true;
     }
 }

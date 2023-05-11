@@ -165,6 +165,14 @@ span{
     font-size: 18px;
     color:greenyellow ;
 }
+.pp1{
+    color: whitesmoke;
+    font-size: 17px;
+}
+.pp2{
+    color: whitesmoke;
+    font-size: 17px;
+}
 
 /* Education Page */
 
@@ -207,10 +215,12 @@ span{
 
 /* About Us Area */
 #about{
+    height: 750px;
+}
+#about1{
     display: flex;
     margin: 20px;
     padding: 20px;
-    height: 700px;
 }
 
 .image{
@@ -221,13 +231,13 @@ span{
 .txt2{
     height: 400px;
     width: 750px;
-    margin-top: 150px;
+    margin-top: 70px;
     padding: 20px;
 }
 .img1{
     height: 550px;
     width: 450px;
-    margin-top: 10%;
+    margin-top: 5%;
     margin-left: 9%;
     border-radius: 25px;
     border: 2px solid rgb(52, 243, 52);
@@ -238,9 +248,10 @@ span{
 }
 .para{
     padding: 10px;
+    line-height: 20px;
 }
 #sp1{
-    color: greenyellow ;
+    color: rgb(33, 240, 33) ;
 }
 
 /* contact Area*/
@@ -255,7 +266,7 @@ span{
         color: aliceblue;
         font-size: 50px;
         text-align: center;
-        color: greenyellow; 
+        color: rgb(26, 238, 26); 
 }
 .form{
     display: flex;
