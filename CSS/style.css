@@ -182,9 +182,12 @@ span{
 /* Education Page */
 
 #education{
-    display: inline-block;
+    
     justify-content: center;
     align-items: center;
+}
+.divm{
+    display: flex;
 }
 
 .div1{
@@ -197,7 +200,8 @@ span{
     padding: 20px;
     text-align: center;
     border-radius: 25px;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
 }
 .div1:hover{
     transform: scale(1.02,1.02);
