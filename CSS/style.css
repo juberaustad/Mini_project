@@ -4,7 +4,7 @@
 }
 #main{
     background-color: rgb(241, 234, 234);
-    height: 800px;
+    height: 770px;
 }
 #index{
     background-color:rgb(241, 234, 234);
@@ -93,14 +93,16 @@ span{
     margin-top: 13%;
 }
 .divi2{
-    margin-left: 27%;
+    margin-left: 31%;
     margin-top: 70px;
     position: relative;
+    height: 450px;
+    width: 400px;
     
 }
 .img2{
-    height: 450px;
-    width: 400px;
+    height: 95%;
+    width: 100%;
     margin: 10px;
     border: 2px solid rgb(53, 236, 53);
     border-radius: 50px;
@@ -132,25 +134,30 @@ span{
   /* Portfolio */
 
 .portfolio{
-    height: 700px;
+    height: 80%;
     width: 100%;
     background-color: rgb(241, 234, 234);
 }
 .pdiv3{
-    display: inline-block;
+    display: inline;
+    position: relative;
     justify-content: center;
     align-items: center;
+    height: 30%;
 }
 .pdiv1{
     background-color: #898888;
     display: inline-block;
     text-align: center;
-    height: 6%;
+    height: 8%;
     width: 33%;
     padding: 3%;
     margin-left: 7%;
     border-radius: 30px;
 
+}
+#pdiv{
+    height: 70%;
 }
 .ph1{
     color: greenyellow;
