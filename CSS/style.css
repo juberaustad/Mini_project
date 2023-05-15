@@ -351,12 +351,13 @@ span{
     
 }
 .fa {
-  padding: 20px;
-text-align: center;
-  margin: 6px 6px;
-  font-size: 20px;
-  width: 15px;
-  border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    margin: 6px 6px;
+    font-size: 20px;
+    width: 15px;
+    border-radius: 20px;
+    text-decoration: none;
 }
 .fa:hover{
     scale: 1.03;
