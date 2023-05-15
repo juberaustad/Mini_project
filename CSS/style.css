@@ -138,30 +138,28 @@ span{
     width: 100%;
     background-color: rgb(241, 234, 234);
 }
-.pdiv3{
+.div3{
     display: inline;
     position: relative;
     justify-content: center;
     align-items: center;
-    height: 30%;
+    height: 50%;
 }
 .pdiv1{
     background-color: #898888;
     display: inline-block;
     text-align: center;
-    height: 8%;
+    height: 67%;
     width: 33%;
-    padding: 3%;
-    margin-left: 7%;
+    padding: 1%;
+    margin-left: 10%;
     border-radius: 30px;
 
 }
-#pdiv{
-    height: 70%;
-}
+
 .ph1{
     color: greenyellow;
-    margin: 30px;
+    margin: 5px;
     font-size: 40px;
 }
 .ph3{
@@ -190,8 +188,8 @@ span{
 }
 
 .div1{
-    height: 200px;
-    width: 600px;
+    height: 10%;
+    width: 38%;
     background-color: #898888;
     color:greenyellow ;
     margin-left: 30px;
@@ -200,6 +198,11 @@ span{
     text-align: center;
     border-radius: 25px;
     display: inline-block;
+}
+.div1:hover{
+    transform: scale(1.02,1.02);
+    background-color: rgb(59, 55, 55);
+    transition: all .5s;
 }
 .h2h{
     margin: 5%;
