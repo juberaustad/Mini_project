@@ -1,0 +1,7 @@
+C:\Users\User\source\repos\Csharp_asign\bin\Debug\Csharp_asign.exe.config
+C:\Users\User\source\repos\Csharp_asign\bin\Debug\Csharp_asign.exe
+C:\Users\User\source\repos\Csharp_asign\bin\Debug\Csharp_asign.pdb
+C:\Users\User\source\repos\Csharp_asign\obj\Debug\Csharp_asign.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Csharp_asign\obj\Debug\Csharp_asign.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Csharp_asign\obj\Debug\Csharp_asign.exe
+C:\Users\User\source\repos\Csharp_asign\obj\Debug\Csharp_asign.pdb
